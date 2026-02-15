@@ -1,0 +1,33 @@
+{
+  "name": "messenger-app",
+  "version": "1.0.0",
+  "description": "Jednoduchá Messenger aplikácia pre Mac",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac"
+  },
+  "keywords": ["messenger", "facebook"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.messenger.app",
+    "productName": "Messenger",
+    "mac": {
+      "category": "public.app-category.social-networking",
+      "icon": "icon.png",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "files": [
+      "main.js",
+      "icon.png"
+    ]
+  }
+}
