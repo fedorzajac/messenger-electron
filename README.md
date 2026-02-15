@@ -55,3 +55,9 @@ Hotová aplikácia bude mať cca 150-200 MB (Electron obsahuje celý Chrome engi
 - Prvá kompilácia trvá dlhšie (5-10 minút)
 - Ďalšie kompilácie sú rýchlejšie (1-2 minúty)
 - Aplikácia funguje len na macOS
+
+## I am not in america, but here it is for stupid people: Downloading the code your are responsible for solving every... EVERY issue you encounter and make and does not me responsible for your stupidity and code use or misuse.
+
+____
+
+claude ai generated every single line of code.
